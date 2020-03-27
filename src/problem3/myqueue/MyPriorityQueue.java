@@ -20,9 +20,9 @@ public class MyPriorityQueue {
     }
 
     public void enQueue(Node addData) {
-        if (front == null) {
-            rear = addData;
-            front = addData;
+        if (front==null) {
+            rear=addData;
+            front=addData;
             size++;
         } else {
             if (addData.getData().getRollNumber() >= this.rear.getData().getRollNumber()) {
