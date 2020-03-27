@@ -19,7 +19,7 @@ public class Student {
     }
 
     public Student(int rno, String name, int backLog, int appearance) {
-        this.rollNo = rno;
+        this.rollNo =   rno;
         Name = name;
         this.backs = backLog;
         this.appearing = appearance;
