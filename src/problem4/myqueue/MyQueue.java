@@ -17,9 +17,9 @@ public class MyQueue {
     private int size;
 
     public MyQueue() {
-        front = null;
-        rear = null;
-        size = 0;
+        front= null;
+        rear= null;
+        size= 0;
     }
 
     public void enqueue(TreeNode root) {
