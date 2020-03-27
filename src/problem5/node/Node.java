@@ -12,20 +12,24 @@ public class Node {
     private Student student;
     private Node next;
 
-    public Node(Student student) {
+    public Node(Student student)
+    {
         this.student = student;
         next = null;
     }
 
-    public Student getData() {
+    public Student getData()
+    {
         return student;
     }
 
-    public void setData(Student student) {
+    public void setData(Student student)
+    {
         this.student = student;
     }
 
-    public Node getNext() {
+    public Node getNext()
+    {
         return next;
     }
 
