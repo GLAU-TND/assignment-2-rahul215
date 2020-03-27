@@ -12,7 +12,7 @@ import problem4.myqueue.MyQueue;
 // use problem1.mybst.MyBinarySearchTree class for creating binary tree
 public class MyMain {
     public static void main(String[] args) {
-        MyBinarySearchTree MyBinarySearchTree =  new MyBinarySearchTree();
+        MyBinarySearchTree MyBinarySearchTree =new MyBinarySearchTree();
         MyBinarySearchTree.add(500);
         MyBinarySearchTree.add(395);
         MyBinarySearchTree.add(56);
