@@ -10,18 +10,22 @@ public class Node {
     }
 
     public int getData() {
+
         return value;
     }
 
     public void setData(int value) {
+
         this.value = value;
     }
 
     public Node getNext() {
+
         return next;
     }
 
     public void setNext(Node next) {
+
         this.next = next;
     }
 }
