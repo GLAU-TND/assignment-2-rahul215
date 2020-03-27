@@ -12,7 +12,7 @@ public class Node {
     private Node next;
 
     public Node(Student student) {
-        this.student = student;
+        this.student=student;
         next = null;
     }
 
