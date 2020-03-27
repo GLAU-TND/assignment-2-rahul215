@@ -7,4 +7,9 @@
 package problem1.mybst;
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
+    public void insert(int nextInt) {
+    }
+
+    public void print() {
+    }
 }
