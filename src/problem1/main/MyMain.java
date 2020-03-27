@@ -13,20 +13,14 @@ import java.util.Scanner;
 
 public class MyMain {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        MyBinarySearchTree bst = new MyBinarySearchTree();
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        bst.insert(scanner.nextInt());
-        System.out.println("PREORDER TRAVERSAL: ");
-        bst.print();
+
+        MyBinarySearchTree MyBinarySearchTree = new MyBinarySearchTree();
+        Scanner sc = new Scanner(System.in);
+        int input = 7;
+        while (input > 0) {
+            MyBinarySearchTree.add(sc.nextInt());
+            input--;
+        }
     }
-}
+    }
+
