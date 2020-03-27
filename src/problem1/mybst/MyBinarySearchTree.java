@@ -9,7 +9,7 @@ public class MyBinarySearchTree {
 
     public MyBinarySearchTree() {
         this.root = null;
-        preOrderString =  new StringBuilder();
+        preOrderString = new StringBuilder();
     }
 
     public static void pre(TreeNode root) {
