@@ -14,7 +14,7 @@ import problem5.student.Student;
 // use problem5.student.Student class to create object of student
 public class MyMain {
     public static void main(String[] args) {
-        MyPriorityQueue obj = new MyPriorityQueue();
+        MyPriorityQueue obj =  new MyPriorityQueue();
         obj.enQueue(new Node(new Student(45, "Rahul")));
         obj.enQueue(new Node(new Student(6, "Aditya")));
         obj.enQueue(new Node(new Student(1, "Arjun")));

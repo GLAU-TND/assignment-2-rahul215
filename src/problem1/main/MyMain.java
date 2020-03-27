@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class MyMain {
     public static void main(String[] args) {
 
-        MyBinarySearchTree MyBinarySearchTree = new MyBinarySearchTree();
+        MyBinarySearchTree MyBinarySearchTree =  new MyBinarySearchTree();
         Scanner sc = new Scanner(System.in);
         int input = 7;
         while (input > 0) {
